@@ -1,0 +1,27 @@
+{
+  "name": "sms-pdu-node",
+  "version": "0.1.0",
+  "description": "convert text into a PDU SMS sendable via a 3g modem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brugnara/sms-pdu-node.git"
+  },
+  "keywords": [
+    "sms",
+    "pdu",
+    "gsm",
+    "conversion",
+    "converter",
+    "encoder"
+  ],
+  "author": "Daniele Brugnara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brugnara/sms-pdu-node/issues"
+  },
+  "homepage": "https://github.com/brugnara/sms-pdu-node"
+}
