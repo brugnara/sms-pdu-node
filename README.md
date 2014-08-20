@@ -15,6 +15,18 @@ in future releases.
 
 You should be able to run `node test.js` and view a working example.
 
+## Example
+
+```bash
+npm install sms-pdu-node
+```
+
+```js
+var pdu = require('sms-pdu-node');
+
+console.log(pdu('ciao', '393420011223'));
+```
+
 ## Defaults
 
 I'm able to convert into a 8 bit message and send without problems.

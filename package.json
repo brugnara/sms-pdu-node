@@ -1,6 +1,6 @@
 {
   "name": "sms-pdu-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "convert text into a PDU SMS sendable via a 3g modem",
   "main": "index.js",
   "scripts": {
