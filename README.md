@@ -24,17 +24,10 @@ npm install sms-pdu-node
 ```js
 var pdu = require('sms-pdu-node');
 
-console.log(pdu('ciao', '393420011223'));
+console.log(pdu('ciao', '393420011223')); // defaults to 8 bit
+
+console.log(pdu('ciao', '393420011223', null. 7)); // 7 bit!
 ```
-
-## Defaults
-
-I'm able to convert into a 8 bit message and send without problems.
-
-# Issues
-
-Converting into a message, causes a different output compared with the one got from [original online generator](http://rednaxela.net/pdu.php).
-This generates an error converting into a 7bit that causes a flash message to be sent, instead of a normal one. Any help on this, will be apreciated.
 
 # How to send a PDU message
 
